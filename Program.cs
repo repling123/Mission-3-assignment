@@ -6,13 +6,14 @@ namespace FoodBankApp
     {
         static void Main(string[] args)
         {
-            // List to hold all the food items in our inventory.
+            // List to hold all the food items in our inventory. Pulling from other code
             List<FoodItem> foodInventory = new List<FoodItem>();
 
             // Keep the program running until we choose to exit.
             for (; ; )
             {
                 // Show the menu options to the user.
+                Console.WriteLine(" "); // Extra line for readability
                 Console.WriteLine("Food Bank Inventory System:");
                 Console.WriteLine("1. Add Food Item");
                 Console.WriteLine("2. Delete Food Item");
