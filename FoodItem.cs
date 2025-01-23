@@ -19,10 +19,5 @@
 
             ExpirationDate = expirationDate;
         }
-        public override string ToString()
-        {
-            // Output
-            return $"Name: {Name}, Category: {Category}, Quantity: {Quantity}, Expiration Date: {ExpirationDate.ToShortDateString()}";
-        }
     }
 }
